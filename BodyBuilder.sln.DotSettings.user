@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=572acb13_002De069_002D4fa6_002D8b47_002Dae6a1fdfb147/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Kernel_customer_tests_id_name" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::40E0BFCB-7569-4F68-AC1A-35243CFB4A04::.NETFramework,Version=v4.7.2::BodyBuilder.Business.Tests.EntityFramework_Tests.KernelTests.Kernel_customer_tests_id_name&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E2353EC-4F5B-45DA-AB92-805ED0FBE847::.NETFramework,Version=v4.7.2::BodyBuilder.DataAccess.Tests.EntityFrameworkTests.ProgramTests.get_all&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E2353EC-4F5B-45DA-AB92-805ED0FBE847::.NETFramework,Version=v4.7.2::BodyBuilder.DataAccess.Tests.EntityFrameworkTests.ProgramTests.delete_existing_program&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::40E0BFCB-7569-4F68-AC1A-35243CFB4A04::.NETFramework,Version=v4.7.2::BodyBuilder.Business.Tests.EntityFramework_Tests.KernelTests.Kernel_Program_Test_Get_All&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E2353EC-4F5B-45DA-AB92-805ED0FBE847::.NETFramework,Version=v4.7.2::BodyBuilder.DataAccess.Tests.EntityFrameworkTests.ProgramTests.Add_train&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E2353EC-4F5B-45DA-AB92-805ED0FBE847::.NETFramework,Version=v4.7.2::BodyBuilder.DataAccess.Tests.EntityFrameworkTests.ProgramTests.Add_work_day&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E2353EC-4F5B-45DA-AB92-805ED0FBE847::.NETFramework,Version=v4.7.2::BodyBuilder.DataAccess.Tests.EntityFrameworkTests.CustomerTests.Work_day_dal&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E2353EC-4F5B-45DA-AB92-805ED0FBE847::.NETFramework,Version=v4.7.2::BodyBuilder.DataAccess.Tests.EntityFrameworkTests.CustomerTests.Train_dal&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E2353EC-4F5B-45DA-AB92-805ED0FBE847::.NETFramework,Version=v4.7.2::BodyBuilder.DataAccess.Tests.EntityFrameworkTests.CustomerTests.Add_program&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E2353EC-4F5B-45DA-AB92-805ED0FBE847::.NETFramework,Version=v4.7.2::BodyBuilder.DataAccess.Tests.EntityFrameworkTests.CustomerTests.Complex_types_with_customer_id&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::40E0BFCB-7569-4F68-AC1A-35243CFB4A04::.NETFramework,Version=v4.7.2::BodyBuilder.Business.Tests.EntityFramework_Tests.KernelTests.Beginner_program&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::40E0BFCB-7569-4F68-AC1A-35243CFB4A04::.NETFramework,Version=v4.7.2::BodyBuilder.Business.Tests.EntityFramework_Tests.KernelTests.Body_builder_program&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::40E0BFCB-7569-4F68-AC1A-35243CFB4A04::.NETFramework,Version=v4.7.2::BodyBuilder.Business.Tests.EntityFramework_Tests.KernelTests.Losing_weight_program&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

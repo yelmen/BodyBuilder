@@ -1,0 +1,17 @@
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\BodyBuilder.DataAccess.dll.config
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\BodyBuilder.DataAccess.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\BodyBuilder.DataAccess.pdb
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\BodyBuilder.Core.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\BodyBuilder.Entities.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\EntityFramework.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\BodyBuilder.Core.pdb
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\BodyBuilder.Core.dll.config
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\BodyBuilder.Entities.pdb
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\EntityFramework.xml
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\obj\Release\BodyBuilder.Bomaker.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\obj\Release\BodyBuilder.Bomaker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\obj\Release\BodyBuilder.Bomaker.DataAccess.csproj.CopyComplete
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\obj\Release\BodyBuilder.DataAccess.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.DataAccess\obj\Release\BodyBuilder.DataAccess.pdb

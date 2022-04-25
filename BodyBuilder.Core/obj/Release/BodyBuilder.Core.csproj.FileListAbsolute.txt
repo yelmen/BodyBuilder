@@ -1,0 +1,12 @@
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\bin\Release\BodyBuilder.Core.dll.config
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\bin\Release\BodyBuilder.Core.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\bin\Release\BodyBuilder.Core.pdb
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\bin\Release\EntityFramework.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\bin\Release\EntityFramework.xml
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\obj\Release\BodyBuilder.Core.csproj.AssemblyReference.cache
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\obj\Release\BodyBuilder.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\obj\Release\BodyBuilder.Core.csproj.CopyComplete
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\obj\Release\BodyBuilder.Core.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Core\obj\Release\BodyBuilder.Core.pdb

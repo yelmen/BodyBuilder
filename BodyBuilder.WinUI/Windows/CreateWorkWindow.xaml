@@ -1,0 +1,69 @@
+﻿<Window x:Class="BodyBuilder.WinUI.Windows.CreateWorkWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BodyBuilder.WinUI.Windows"
+        mc:Ignorable="d"
+        Title="CreateWorkWindow" Height="450" Width="400"
+        AllowsTransparency="True"
+        WindowStyle="None" Loaded="CreateWorkWindow_OnLoaded"
+        >
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Label Content="Hareket Ekleme Penceresi" VerticalAlignment="Center"
+                        FontSize="16" Foreground="Black" 
+                        FontFamily="Microsoft JhengHei Light" Margin="0,0,160,0"/>
+                <Button Content="✕" Style="{StaticResource CustomWindowButton}"
+                        Width="20" Height="20" Margin="0,0,10,0"
+                        BorderThickness="0" Background="Transparent" Foreground="Black" Click="Button_Click"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="1">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Label Content="Hareket adını girin" VerticalAlignment="Center"
+                       FontSize="16" Foreground="Black" 
+                       FontFamily="Microsoft JhengHei Light"/>
+                <TextBox Width="250" Style="{StaticResource CustomTextBox}"
+                         x:Name="TbxMoveName"/>
+                
+            </StackPanel>
+            
+        </Border>
+
+        <Border Grid.Row="2">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Label Content="Hareket miktarını girin" VerticalAlignment="Center"
+                       FontSize="16" Foreground="Black" 
+                       FontFamily="Microsoft JhengHei Light"/>
+                <TextBox Width="250" Style="{StaticResource CustomTextBox}"
+                         x:Name="TbxMoveAmount"/>
+
+            </StackPanel>
+
+        </Border>
+
+        <Border Grid.Row="3">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Button Width="130" Height="30" Style="{StaticResource CustomButton}"
+                        Foreground="Black" Background="Transparent" Content="Onaylayın"
+                        Margin="0,20,0,0" x:Name="BtnAccept" Click="BtnAccept_Click"/>
+
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+</Window>
+ 

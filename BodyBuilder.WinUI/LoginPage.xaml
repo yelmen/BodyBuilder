@@ -1,0 +1,93 @@
+﻿<Window x:Class="BodyBuilder.WinUI.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BodyBuilder.WinUI"
+        xmlns:viewModel="clr-namespace:BodyBuilder.WinUI.MVVM.ViewModel"
+        mc:Ignorable="d"
+        Title="LoginPage" Height="600" Width="400"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="#FFFFFF"
+        WindowStartupLocation="CenterScreen"
+        Loaded="LoginPage_OnLoaded">
+
+    <Window.DataContext>
+        <viewModel:MainLoginViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="#E3E5E8">
+            <StackPanel Orientation="Horizontal" Margin="10,0,5,0">
+                <Label Content="BodyBuilder" VerticalAlignment="Center"
+                       FontSize="18" Foreground="Black" 
+                       FontFamily="Microsoft JhengHei Light"/>
+                <Button Margin="247,0,0,0" Width="30" Height="30" Content="✕" 
+                        FontSize="18" x:Name="btnClose" Foreground="Black"
+                        Click="btnClose_Click" Style="{StaticResource CustomWindowButton}"/>
+            </StackPanel>
+        </Border>
+        <!--<Border Grid.Row="1" x:Name="brdLoginContent">
+            <Grid Margin="0,50,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Label Content="HOŞ GELDİNİZ" VerticalAlignment="Center" Margin="10,0,0,0"
+                   Foreground="#FCFFF5" FontFamily="Microsoft JhengHei Light"
+                   FontSize="30" x:Name="lblWelcome" Opacity="0.25" />
+
+                <Border Grid.Row="1" Opacity="0.25" x:Name="brdLoginSide" Margin="0,100,0,-100">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Orientation="Vertical" Margin="60,0,0,0">
+                            <Label Content="Kullanıcı Adı : " Foreground="#FCFFF5"
+                               FontFamily="Microsoft JhengHei Light" VerticalAlignment="Center"
+                               FontSize="18"/>
+                            <StackPanel Orientation="Horizontal" Margin="5,0,0,0" Height="40">
+                                <TextBox Style="{StaticResource CustomTextBox}" Width="250" x:Name="tbxUserName"/>
+                            </StackPanel>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="60,0,0,0">
+                            <Label Content="Şifre : " Foreground="#FCFFF5"
+                               FontFamily="Microsoft JhengHei Light" VerticalAlignment="Center"
+                               FontSize="18"/>
+                            <StackPanel Orientation="Horizontal" Margin="5,0,0,0" Height="40">
+                                <PasswordBox Style="{StaticResource CustomPasswordBox}" Width="250" 
+                            x:Name="pbxUserPassword"/>
+                            </StackPanel>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="45,0,0,50">
+                            <Button Width="120" Height="40" Margin="0,0,60,0" Style="{StaticResource CustomButton}"
+                                Content="Giriş Yap" x:Name="btnLogin" Click="btnLogin_Click"/>
+                            <Button Width="120" Height="40" Style="{StaticResource CustomButton}"
+                                Content="Kayıt Ol" x:Name="btnRegister" Click="btnRegister_Click"/>
+                        </StackPanel>
+
+                        <Label Grid.Row="3" Content="Powered by YELMEN" FontSize="13" 
+                           Foreground="#808080" Margin="10,0,0,0"/>
+
+                    </Grid>
+                </Border>
+
+
+            </Grid>
+        </Border>-->
+        <ContentControl Grid.Row="1" x:Name="LoginContent"/>
+        
+    </Grid>
+</Window>

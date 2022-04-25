@@ -1,0 +1,12 @@
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\bin\Release\BodyBuilder.Entities.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\bin\Release\BodyBuilder.Entities.pdb
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\bin\Release\BodyBuilder.Core.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\bin\Release\EntityFramework.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\bin\Release\BodyBuilder.Core.pdb
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\bin\Release\BodyBuilder.Core.dll.config
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\bin\Release\EntityFramework.xml
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\obj\Release\BodyBuilder.Bomaker.Entities.csproj.AssemblyReference.cache
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\obj\Release\BodyBuilder.Bomaker.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\obj\Release\BodyBuilder.Bomaker.Entities.csproj.CopyComplete
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\obj\Release\BodyBuilder.Entities.dll
+C:\Users\Mehmet\source\repos\BodyBuilder\BodyBuilder.Entities\obj\Release\BodyBuilder.Entities.pdb

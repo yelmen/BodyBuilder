@@ -1,0 +1,72 @@
+﻿<Window x:Class="BodyBuilder.WinUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BodyBuilder.WinUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1100"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Background="#FFFFFF"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        Loaded="MainWindow_OnLoaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Grid.ColumnSpan="2" Background="#E3E5E8"
+                MouseDown="UIElement_OnMouseDown">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
+                <Label Content="Body Builder Demo" VerticalAlignment="Center"
+                       FontSize="23" Foreground="Black" 
+                       FontFamily="Microsoft JhengHei Light"
+                       Margin="0,0,750,0"> </Label>
+                <Button x:Name="btnHide" Width="40" Height="40" 
+                        Margin="10,0,10,0" Style="{StaticResource CustomWindowButton}"
+                        Content="─" Background="Transparent"
+                        BorderThickness="0" Click="btnClose_Click"
+                        Foreground="Black"/>
+
+                <Button x:Name="btnClose"  Width="40" Height="40" 
+                        Margin="0,0,10,0" Style="{StaticResource CustomWindowButton}"
+                        Content="✕" Click="btnClose_Click" 
+                        BorderThickness="0" Foreground="Black"/>
+                
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" Margin="0,50,0,0">
+            <DataGrid Margin="0,10,35,10" 
+                      Style="{StaticResource CustomGrid}"
+                      ColumnHeaderStyle="{StaticResource CustomGridHeader}"
+                      Background="#F2F3F5" x:Name="dgwCustomers"
+                      MouseDoubleClick="DgwCustomers_OnMouseDoubleClick"
+                      SelectionChanged="DgwCustomers_OnSelectionChanged"
+                      MouseDown="DgwCustomers_OnMouseDown"/>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="1" Margin="0,0,30,0">
+            <DockPanel >
+                <Button Style="{StaticResource CustomButton}"
+                        Width="150" Height="55" Content="Sil"
+                        x:Name="BtnDynamicActionLeft" Foreground="Black"
+                        Background="Transparent" Click="BtnDynamicActionLeft_Click"/>
+                <Button Style="{StaticResource CustomButton}"
+                        Width="150" Height="55" Content="Ekle" 
+                        HorizontalAlignment="Right" Foreground="Black"
+                        x:Name="BtnDynamicActionRight"
+                        Background="Transparent" Click="BtnDynamicAction_Click"/>
+            </DockPanel>
+        </Border>
+
+       
+    </Grid>
+</Window>
